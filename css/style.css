@@ -124,19 +124,18 @@ a:hover{
     text-shadow: 2px 2px 2px var(--lightgray)
 }
 
-/* Our team section */
-
 .what__we__do__images {
     margin-top: 40px;
     margin-left: 120px;
     margin-bottom: 70px;
-    padding-bottom: 70px;
 }
+
+/* Our team section */
 
 .our__team {
     background-color: #F5F4FA;
     padding-top: 10px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 
 .our__team__title {

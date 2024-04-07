@@ -65,7 +65,7 @@ a:hover{
     font-size: 44px;
     text-align: center;
     background-color: var(--darkgrey);
-    line-height: 60px;
+    line-height: 1.5;
     letter-spacing: 6%;
     color: white;
     text-shadow: 2px 2px 2px var(--black);
@@ -78,7 +78,7 @@ a:hover{
     font-size: 16px;
     background-color: var(--blue);
     color: white;
-    line-height: 30px;
+    line-height: 2;
     border-radius: 10px;
     border-color: var(--darkgrey);
     padding-bottom: 20px;
@@ -218,14 +218,12 @@ a:hover{
 
 [href*="mailto"] {
     color: grey;
-    line-height: 16px;
     letter-spacing: 3%;
     font-style: normal;
 }
 
 [href*="tel"] {
     color: grey;
-    line-height: 16px;
     letter-spacing: 3%;
     font-style: normal;
 }
@@ -336,13 +334,13 @@ a:hover{
 .card__title {
     font-family: var(--primary-font);
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
 
 }
 
 .cards__subtitle {
     font-family: var(--primary-font);
-    line-height: 30px;
+    line-height: 2;
     font-size: 16px;
     color: var(--lightgray);
 }

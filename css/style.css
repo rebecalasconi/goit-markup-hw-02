@@ -125,6 +125,11 @@ a:hover{
 }
 
 /* Our team section */
+.our__team {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+
 .what__we__do__images {
     margin-top: 40px;
     margin-left: 120px;

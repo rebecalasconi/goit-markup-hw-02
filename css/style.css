@@ -248,7 +248,9 @@ a:hover{
     text-align: center;
     background-color: white;
     color: var(--black);
+    margin-top: 60px;
 }
+
 
 .selection>button {
     font-family: var(--primary-font);

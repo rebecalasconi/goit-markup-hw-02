@@ -11,7 +11,7 @@
 
 /*Body section styling- first page */
 .body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     background-color: var(--white);
 }
 

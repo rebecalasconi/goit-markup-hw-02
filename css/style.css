@@ -66,7 +66,7 @@ a:hover{
     text-align: center;
     background-color: var(--darkgray);
     line-height: 1.5;
-    letter-spacing: 6%;
+    letter-spacing: 2px;
     color: var(--white);
     text-shadow: 2px 2px 2px var(--black);
     padding-top: 200px;
@@ -81,7 +81,7 @@ a:hover{
     border-radius: 10px;
     border-color: var(--darkgray);
     padding-bottom: 20px;
-    letter-spacing: 6%;
+    letter-spacing: 2px;
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -102,7 +102,6 @@ a:hover{
   
  .hero__section__title {
     font-size: 14px;
-    letter-spacing: 3%;
  } 
 
  .hero__section__text {
@@ -115,7 +114,6 @@ a:hover{
 .what__we__do__title {
     font-size: 36px;
     text-align: center;
-    letter-spacing: 3%;
     text-shadow: 2px 2px 2px var(--gray)
 }
 
@@ -181,7 +179,6 @@ a:hover{
 #footer__logo {
     font-family:var(--secondary-font);
     font-size: 26px;
-    letter-spacing: 3%;
     color: var(--white);
 }
     
@@ -248,7 +245,7 @@ a:hover{
     }
 
 .card__title {
-    font-size: 18;
+    font-size: 18px;
 }
 
 .cards__subtitle {

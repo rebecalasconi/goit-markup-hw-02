@@ -29,8 +29,7 @@
     line-height: normal;
 }
 
-.list li{
-    font-family: var(--primary-font);
+.list li {
     font-size: 14px;
     list-style: none;
     display: inline-flex;
@@ -38,8 +37,9 @@
     line-height: normal;
     padding-top: 15px;
     text-shadow: 2px 2px 2px lightgrey;
-    font-weight: 450;
+    font-weight: 500;
     margin-right: 40px;
+    font-family: var(--primary-font);
 }
 
 a {
@@ -74,7 +74,6 @@ a:hover{
 }
 
 .button {
-    font-family: var(--primary-font);
     font-size: 16px;
     background-color: var(--blue);
     color: white;
@@ -102,15 +101,13 @@ a:hover{
     margin-left: 80px;
     margin-right: 80px;
 }
-
+  
  .hero__section__title {
-    font-family: var(--primary-font);
     font-size: 14px;
     letter-spacing: 3%;
  } 
 
  .hero__section__text {
-    font-family: var(--primary-font);
     font-size: 14px;
     color: var(--lightgray); 
 }
@@ -118,9 +115,9 @@ a:hover{
 
 /* What we do section */
 .what__we__do__title {
-    font-family: var(--primary-font);
     font-size: 36px;
     text-align: center;
+    letter-spacing: 3%;
     text-shadow: 2px 2px 2px var(--lightgray)
 }
 
@@ -139,7 +136,6 @@ a:hover{
 }
 
 .our__team__title {
-    font-family: var(--primary-font);
     font-size: 36px;
     text-align: center;
     text-shadow: 2px 2px 2px var(--lightgray);
@@ -156,34 +152,19 @@ a:hover{
     margin-left: 100px;
     }
     
-    .container__2 {
+    .containers {
     border-radius: 5px;
     background-color: white;
     box-shadow: 1px 2px 1px lightgray;  
-    }
-    
-    .container__3 {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-    
-    .container__4 {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    margin-right: 180px;
     }
     
     .container__title {
-    font-family: 'roboto', sans-serif;
     font-size: 16px;
     text-align: center;
     font-weight: 700;
     }
     
     .container__subtitle {
-    font-family: 'roboto', sans-serif;
     font-size: 16px;
     text-align: center;
     color: #757575;
@@ -199,13 +180,14 @@ a:hover{
 }
 
 #footer__logo {
-    font-family: 'raleway';
+    font-family:var(--secondary-font);
     font-size: 26px;
     letter-spacing: 3%;
     color: white;
 }
     
 .footer__logo__web {
+    font-family: inherit;
     color: #2196F3;
     line-height: normal;
 }
@@ -230,19 +212,22 @@ a:hover{
 }
 
 .footer__address a {
+    font-family: var(--primary-font);
     display: inline-block;
     padding-bottom: 10px;
 }
 
 
 /* Second page styling */
+.second__page {
+    font-family: var(--primary-font);
+}
 .second__list {
     color: var(--blue);
 }
 
 /* Portiunea principala a paginii */
 .selection {
-    font-family: var(--primary-font);
     font-size: 16px;
     text-align: center;
     background-color: white;
@@ -252,7 +237,6 @@ a:hover{
 
 
 .selection>button {
-    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     color: var(--black);
@@ -262,6 +246,7 @@ a:hover{
     margin-right: 10px;
     margin-bottom: 50px;
     border-radius: 4px;
+    font-family: inherit;
 }
 
 .selection>button:hover {
@@ -278,69 +263,20 @@ a:hover{
     margin-left: 120px;
     margin-right: 80px;
 }
-.container__1__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__2__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__3__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__4__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__5__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__6__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__7__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__8__portofoliu {
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 1px 2px 1px lightgray;  
-    }
-
-.container__9__portofoliu {
+.container__portofolio {
     border-radius: 5px;
     background-color: white;
     box-shadow: 1px 2px 1px lightgray;  
     }
 
 .card__title {
-    font-family: var(--primary-font);
-    font-size: 18px;
+    font-family: inherit;
+    font-size: 18;
     line-height: 2;
-
 }
 
 .cards__subtitle {
-    font-family: var(--primary-font);
+    font-family: inherit;
     line-height: 2;
     font-size: 16px;
     color: var(--lightgray);
